@@ -9,12 +9,17 @@ html,body{
   height: 100%;
   width: 100%;
 }
+
 #main {
   position: relative;
   z-index: 10;
   background-color:#EEEEEA;
   overflow-x: auto;
   max-width: 100%;
+  }
+
+  #main::-webkit-scrollbar {
+    display: none;
   }
 
 #page1{
@@ -164,13 +169,13 @@ html,body{
         transform: translate(-20%, 30%);
     }
 }
-.con{
+.con {
   white-space: nowrap;
-    display: inline-block;
-    animation-name: move;
-    animation-duration: 10s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
+  display: inline-block;
+  animation-name: move;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 #mvtext::-webkit-scrollbar {
@@ -241,4 +246,82 @@ html,body{
   font-weight: 200;
   margin-top: 2vw;
   font-size: 1vw;
+}
+#page3 {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #EFEAE3;
+  padding: 4vw 0;
+}
+
+.elem {
+  height: 150px;
+  width: 100%;
+  position: relative;
+
+  border-bottom: 1px solid #38383864;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: 0 2vw;
+}
+
+.elem h2 {
+  font-size: 3vw;
+  position: relative;
+  z-index: 9;
+}
+
+.elem .overlay {
+  height: 100%;
+  width: 100%;
+  background-color: orange;
+  position: absolute;
+  left: 0;
+  top: -100%;
+  transition: all ease 0.25s;
+}
+
+.elem:hover .overlay {
+  top: 0;
+}
+
+
+
+#fixed-image {
+  height: 30vw;
+  width: 24vw;
+  border-radius: 15px;
+  position: relative;
+  z-index: 99;
+  left: 50%;
+  top: 25%;
+  display: none;
+  background-size: cover;
+  background-position: center;
+}
+
+.featured_header {
+  font-size: 25px;
+  grid-column-gap: 0.5em;
+  grid-row-gap: 0.5em;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 2em;
+  margin-right: 2em;
+  padding-bottom: 3.75em;
+  display: flex;
+}
+
+.featured_header2 {
+  font-size: 25px;
+  grid-column-gap: 0.5em;
+  grid-row-gap: 0.5em;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+  padding-bottom: 2.5em;
+  display: flex;
 }
