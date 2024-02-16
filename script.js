@@ -5,7 +5,7 @@ const scroll = new LocomotiveScroll({
 });
 
 
-function page4Animation() {
+function page3Animation() {
   var elemC = document.querySelector("#elem-container")
   var fixed = document.querySelector("#fixed-image")
   elemC.addEventListener("mouseenter", function () {
@@ -58,6 +58,6 @@ function loaderAnimation() {
 }
 
 swiperAnimation()
-page4Animation()
+page3Animation()
 menuAnimation()
 loaderAnimation()
