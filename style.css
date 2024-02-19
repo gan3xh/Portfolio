@@ -86,21 +86,36 @@ nav h3 {
   height: 62vh;
   width: 100%;
   display: flex;
-  align-items:center;
+  top:40%;
   justify-content: space-between;
   border-bottom: 1px;
   padding-bottom: 2.5vw;
   padding: 0 2vw;
 }
 #center h1 {
-  font-size: 10vw;
   text-align: left;
-  line-height: 8vw;
+  line-height: 7vw;
+}
+.auto-type{
+  font-size: 6vw;
+}
+.hi{
+  font-size: 6vw;
+}
+.name{
+  font-size: 8vw;
 }
 #right{
   display: flex;
   align-items: center;
   padding: 10px 20px;
+}
+#ricn{
+  z-index: 110;
+  position: relative;
+a{
+  margin: 20px;
+}
 }
 .me{
   border-radius: 6%;
@@ -332,7 +347,7 @@ nav h3 {
   top: 0;
 }
 
-/*#loader{
+#loader{
   height: 100%;
   width: 100%;
   background-color: #000;
@@ -385,7 +400,7 @@ nav h3 {
       font-size: 9vw;
     
   }
-}*/
+}
 
 #fixed-image {
   height: 30vw;
@@ -393,8 +408,8 @@ nav h3 {
   border-radius: 15px;
   position: fixed;
   z-index: 99;
-  left: 50%;
-  top: 25%;
+  left: 70%;
+  top: 20%;
   display: none;
   background-size: cover;
   background-position: center;
@@ -456,12 +471,9 @@ nav h3 {
   position: fixed;
   height: 105vh;
   width: 100%;
-  background-color: #000;
-  color: #fff;
   z-index: 9;
   bottom: 0;
   display: flex;
-  /* align-items: flex-end; */
   justify-content: flex-end;
   flex-direction: column;
   padding: 1vw 3vw;
@@ -592,7 +604,7 @@ nav h3 {
         display: flex;
         align-items: flex-end;
         justify-content: space-between;
-        border-bottom: 1px solid #0000003c;
+        border-bottom: 1px;
         padding: 7vw 5vw;
         padding-bottom: 10vw;
         flex-direction: column-reverse;
@@ -872,7 +884,9 @@ nav h3 {
     background-size: cover;
     background-position: center;
   }
-  
+  #page3{
+    min-height: 60vh;
+  }
   #page4 {
     height: 70vh;
     width: 100%;
@@ -889,6 +903,12 @@ nav h3 {
     flex-direction: column;
   }
   
+  #lft5{
+    width: 100%;
+    overflow: hidden;
+    margin-right: 88px;
+  }
+
   .contact{
     height: 45vh;
     width: 45vh;
