@@ -9,6 +9,16 @@ html,body{
   width: 100%;
 }
 
+#minicircle{
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  z-index: 99999;
+  border-radius: 50%;
+  background-color: purple;
+}
+
 #main {
   position: relative;
 
@@ -467,33 +477,7 @@ a{
 #email{
   font-size: 30px;
 }
-#footer {
-  position: fixed;
-  height: 105vh;
-  width: 100%;
-  z-index: 9;
-  bottom: 0;
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: column;
-  padding: 1vw 3vw;
-}
 
-#footer h1 {
-  font-size: 23vw;
-}
-
-#footer-div {
-  height: 20vh;
-  width: 100%;
-  background-color: red;
-}
-
-#footer-bottom {
-  border-top: 1px solid #dadada;
-  height: 10vh;
-  width: 100%;
-}
 
 #full-scr {
   height: 100vh;
