@@ -5,10 +5,13 @@ const scroll = new LocomotiveScroll({
 });
 
 function circleMouseFollower() {
+  var minicircle = document.querySelector("#minicircle");
+  minicircle.style.pointerEvents = "none";
   window.addEventListener("mousemove", function (dets) {
-    document.querySelector("#minicircle").style.transform = `translate(${dets.clientX}px, ${dets.clientY}px)`;
+    minicircle.style.transform = `translate(${dets.clientX}px, ${dets.clientY}px)`;
   });
 }
+
 
 
 function page3Animation() {
