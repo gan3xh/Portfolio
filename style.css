@@ -4,7 +4,9 @@
   padding: 0;
   box-sizing: border-box; 
 }
-
+html:focus-within{
+  scroll-behavior: smooth !important;
+  }
 html,body{
   height: 100%;
   width: 100%;
@@ -267,7 +269,7 @@ a{
   align-items: center;
   justify-content: space-between;
   position: relative;
-  
+  z-index: 999;
 }
 
 #page2-bottom h1 {
@@ -287,7 +289,7 @@ a{
 
 
 #pg2{
-  min-height: 70vh;
+  min-height: 90vh;
   width: 100%;
   background-color:#EEEEEA;
   position: relative;
@@ -312,18 +314,35 @@ a{
 }
 .art{
   margin-left: 100px;
-  height: 40vh;
-  width: 70vh;
+  height: 50vh;
+  width: 80vh;
   display: flex;
   align-items: center;
 }
 .skills{
  font-size: 3vh;
  padding-left: 2vw;
+ margin-bottom: 15vh;
 }
 #sicn{
-  display: flex;
+  
  justify-content: space-around;
+}
+#icc{
+  font-size: 18px;
+  padding-left: 14px;
+}
+#sec1{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+#sec2{
+  display: flex;
+  justify-content: space-between;
+}
+#sk{
+  font-size: 25px;
 }
 #sicnp{
   font-size: 18px;
@@ -336,6 +355,7 @@ a{
 }
 #hd{
   display: flex;
+  position: relative;
 }
 #pj{
   font-size: 50px;
