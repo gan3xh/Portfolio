@@ -26,7 +26,7 @@ html,body{
   position: relative;
 
   background-color:#F0EFFF;
-  overflow-x: auto;
+  overflow-x: hidden;
   max-width: 100%;
   }
 
@@ -221,7 +221,7 @@ a{
   z-index: 10;
   position:absolute;
   white-space: nowrap;
-  overflow-x: auto;
+  overflow-x: hidden;
   max-width: 100%;
 }
 
@@ -659,7 +659,7 @@ a{
     transition: all ease 0.5s;
     position: relative;
     font-size: 10px;
-    /*overflow: hidden;*/
+    overflow: hidden;
   }
   #nav-2 h4::after{
     content: "";
@@ -815,7 +815,7 @@ a{
     z-index: 10;
     position:absolute;
     white-space: nowrap;
-    overflow-x: auto;
+    overflow-x: hidden;
     max-width: 100%;
     margin-top: 27vh;
   }
@@ -869,7 +869,7 @@ a{
 }
 
   #moving-text {
-      overflow-x: auto;
+      overflow-x: hidden;
       white-space: nowrap;
   }
 
@@ -986,7 +986,7 @@ a{
     position: relative;
   
     border-bottom: 1px solid #38383864;
-    /*overflow: hidden;*/
+    overflow: hidden;
     display: flex;
     align-items: center;
     padding: 0 2vw;
