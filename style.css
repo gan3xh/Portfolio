@@ -659,7 +659,7 @@ a{
     transition: all ease 0.5s;
     position: relative;
     font-size: 10px;
-    overflow: hidden;
+    /*overflow: hidden;*/
   }
   #nav-2 h4::after{
     content: "";
@@ -986,7 +986,7 @@ a{
     position: relative;
   
     border-bottom: 1px solid #38383864;
-    overflow: hidden;
+    /*overflow: hidden;*/
     display: flex;
     align-items: center;
     padding: 0 2vw;
