@@ -11,12 +11,7 @@ html,body{
   height: 100%;
   width: 100%;
 }
-body 
-{ width: 100%; height: 100%; overflow: hidden; margin: 0; padding: 0; }
-.no-bounce { width: 100%; height: 100%; overflow-y: scroll; -webkit-overflow-scrolling: touch; }
-.no-bounce > div { width: 100%; height: 100%; overflow-y: scroll; -webkit-overflow-scrolling: touch; }
-.no-bounce > div > div { width: 100%; min-height: 101%; font-size: 30px; }
-p { display: block; height: 50px; }
+
 #minicircle{
   transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
   width: 10px;
@@ -628,16 +623,7 @@ a{
   border-bottom-right-radius: 20px;
 }
 @media (max-width:600px) {
-  .scrollable {
-    position: absolute;
-    top: 50px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    overflow: scroll;
-    -webkit-overflow-scrolling: touch;
-    } 
-    
+  
   #page1{
     min-height: 220vw;
     width: 100%;
