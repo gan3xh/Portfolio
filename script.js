@@ -1,5 +1,5 @@
 // Initialize Swiper
-var mySwiper = new mySwiper('main', {
+var mySwiper = new Swiper('main', {
   // Disable touch drag
   touchEventsTarget: 'container',
   touchRatio: 1,
