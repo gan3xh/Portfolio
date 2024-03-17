@@ -1,3 +1,23 @@
+// Initialize Swiper
+var mySwiper = new Swiper('body', {
+  // Disable touch drag
+  touchEventsTarget: 'container',
+  touchRatio: 1,
+  touchAngle: 45,
+  simulateTouch: true,
+  touchStartPreventDefault: true,
+  touchStartForcePreventDefault: false,
+  touchReleaseOnEdges: false,
+});
+
+// Check if user is on a mobile device
+var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+// If user is not on a mobile device, disable touch drag
+if (!isMobile) {
+  mySwiper.params.touchMoveStopPropagation = false;
+}
+
 const scroll = new LocomotiveScroll({
   el: document.querySelector('#main'),
   smooth: true

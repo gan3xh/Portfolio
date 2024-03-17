@@ -4,6 +4,21 @@
   padding: 0;
   box-sizing: border-box; 
 }
+@media only screen and (max-width:1024px) {
+	html {
+		font-size: 9.411764705882353px;
+	}
+}
+@media only screen and (max-width:768px) {
+	html {
+		font-size: 10px;
+	}
+}
+@media only screen and (max-width:400px) {
+	html {
+		font-size: 9.411764705882353px;
+	}
+}
 html:focus-within{
   scroll-behavior: smooth !important;
   }
@@ -623,7 +638,7 @@ a{
   border-bottom-right-radius: 20px;
 }
 @media (max-width:600px) {
-  
+
   #page1{
     min-height: 220vw;
     width: 100%;
