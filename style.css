@@ -708,7 +708,7 @@ a{
     display: none;
   }
   #center {
-    height: 55vh;
+    height: 60vh;
         width: 100%;
         display: flex;
         justify-content: space-between;
@@ -728,7 +728,8 @@ a{
   #right{
     display: flex;
     align-items: center;
-    padding: 10px 55px;
+    /*padding: 10px 55px;*/
+    flex-direction: column;
   }
   .auto-type{
     font-size: 5.5vw;
@@ -835,7 +836,7 @@ a{
     white-space: nowrap;
     overflow-x: hidden;
     max-width: 100%;
-    margin-top: 27vh;
+    margin-top: 22vh;
   }
   
   #mvtext h1{
