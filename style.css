@@ -1,8 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@font-face {
+  font-family: neu;
+  src: url(./NeueHaasDisplayMediu.ttf);
+}
+
+@font-face {
+  font-family: neu;
+  font-weight: 100;
+  src: url(./NeueHaasDisplayLight.ttf);
+}
+
+@font-face {
+  font-family: neu;
+  font-weight: 200;
+  src: url(./NeueHaasDisplayRoman.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; 
+  font-family: neu;
 }
 @media only screen and (max-width:1024px) {
 	html {
@@ -428,7 +446,7 @@ a{
 #loader h1{
   font-size: 4vw;
   color: transparent;
-  background: linear-gradient(to right,orange,orangered);
+  background: linear-gradient(to right,#7971FF,BLUE);
   -webkit-background-clip: text;
   background-clip: text;
   position: absolute;
