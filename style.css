@@ -419,7 +419,7 @@ a{
 .elem .overlay {
   height: 100%;
   width: 100%;
-  background-color: orange;
+  background-color: #6C63FF;
   position: absolute;
   left: 0;
   top: -100%;
@@ -738,7 +738,7 @@ a{
         z-index: 9;
   }
   #center h1 {
-    font-size: 17vw;
+    font-size: 13vw;
     text-align: center;
     line-height: 15vw;
     margin-left: 1vw;
@@ -961,7 +961,7 @@ a{
   }
 
   #pg2{
-    min-height: 130vh;
+    min-height: 150vh;
     width: 100%;
     background-color:#F0EFFF;
     position: relative;
