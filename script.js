@@ -219,3 +219,4 @@ document.addEventListener('click', (e) => {
 setInterval(() => {
   scrollDown();
 }, 4000);
+

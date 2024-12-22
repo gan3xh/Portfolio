@@ -655,12 +655,13 @@ nav h3 {
   font-weight: normal;
 }
 #pg6 {
-  min-height: 100vh;
+  min-height: 4vw;
   width: 100%;
   background-color: #f0efff;
   position: relative;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
 }
 
 #lft5 {
